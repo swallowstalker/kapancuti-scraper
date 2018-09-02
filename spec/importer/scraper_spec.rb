@@ -4,7 +4,7 @@ require_relative '../../lib/importer/scraper'
 TARGET_YEAR = 2018
 HOLIDAY_SCRAP_TARGET = "spec/contoh-liburan.html"
 
-describe '.scrap' do
+describe 'Scraper.scrap' do
 
   let(:scraper) {Importer::Scraper.new}
 
